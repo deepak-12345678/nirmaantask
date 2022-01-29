@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <style>
+        h1{
+            color:rgb(47, 45, 71);
+            background-color: chartreuse;
+            font-size: 50px;
+        }
+        body{
+            background-image: url(https://worlduniversityofdesign.ac.in/assets/images/bgs/school-of-visual-arts-banner.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+.nav ul{
+    list-style:none;
+    background: red;
+    text-align:center;
+    padding:5px;
+    margin:5px;
+    
+}
+.nav li{
+    display:inline-block;
+    
+}
+.nav a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: yellow;
+    width:150px;
+    display:flex;
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;    
+}
+.nav a:hover{
+    background:blue;
+    transition:0.4;
+    background-size:100%;
+}
+img{
+    
+    object-fit: cover;
+    height: 600px;
+    width:350px;
+    background-color: coral;
+    margin: 20px;
+    padding: 20px;;
+}
+    
+
+p{
+    font-size: 20px;
+    background-color: yellow;
+
+}
+
+}
+.zoom img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.zoom:hover img{
+    transform: scale(1.5);
+
+}
+.flex{
+    
+
+}
+    </style>
+</head>
+<body>
+    
+    <h1><center><u><b>WHAT DO WE HAVE FOR YOU</b></u></center></h1>
+    <div class="nav" >
+        <ul>
+        <li><a href="artgallerynirmaan.html" >Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+    </div>
+    <center><p>Click On The Art Which You Want To Buy</p></center>
+    <center> <div class="zoom"> <img src="https://lh6.ggpht.com/HlgucZ0ylJAfZgusynnUwxNIgIp5htNhShF559x3dRXiuy_UdP3UQVLYW6c=s1200" onclick=(price1())>
+        <img src="https://i.pinimg.com/originals/70/64/17/706417047e8c4f91a3ced6b2263752c9.jpg" onclick=(price2())><br>
+        <img src="https://d3rf6j5nx5r04a.cloudfront.net/nwsT-JVBzTehwN0SeIs8BKE4AVA=/2732x1640/homepage_banner/d/6/0b9511d446184068b33fc7509c5fa55a.jpg" onclick=(price3())>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBkltyjvyBihZI-NtUa01-m-Y9Yp3Cxp3oag&usqp=CAU" onclick=(price4())></div></center>
+        <script>
+          function price1(){
+              alert("The price is 500 rupees")
+          }
+          function price2(){
+              alert("The price is 600 rupees")
+          }
+          function price3(){
+              alert("The price is 700 rupees")
+          }
+          function price4(){
+              alert("The price is 800 rupees")
+          }
+        </script>
+</body>
+</html>
